@@ -15,10 +15,10 @@ const Home = () => {
                 Je propose également mes services en tant que freelance.
             </p>
             <div>
-                <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#2ab9b9] hover'>
+                <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#2ab9b9] group'>
                     Regardez mes projets
-                    <span className='groupe-hover:rotate-90 duration-300'>
-                        <HiArrowNarrowRight className='ml-4'/>
+                    <span className='group-hover:rotate-90 duration-300'>
+                        <HiArrowNarrowRight className='ml-3'/>
                     </span>
                 </button>
             </div>
