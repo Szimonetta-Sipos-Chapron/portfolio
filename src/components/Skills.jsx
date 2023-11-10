@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section name='skills' className='bg-[#0a192f] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full pb-40'>
         <div className='pb-10'>
             <h3 className='text-4xl font-bold inline border-b-4 border-[#14ECEB]'>Mes compétences</h3>
             <p className='py-4'>Voici les technologies et les outils que j'utilise.</p>
