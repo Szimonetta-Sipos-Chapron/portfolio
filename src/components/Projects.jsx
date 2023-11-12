@@ -7,10 +7,10 @@ const Projects = () => {
   return (
     <section name='projects' className='bg-[#0a192f] text-gray-300'>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full py-60'>
 
             <div className='pb-10'>
-            <h3 className='text-4xl font-bold inline border-b-4 border-[#14ECEB]'>Mes projets</h3>
+            <h3 className='text-4xl font-bold inline border-b-4 border-teal-400'>Mes projets</h3>
             <p className='py-4'>Voici mes derniers projets.</p>
             </div>
 
@@ -23,7 +23,7 @@ const Projects = () => {
                 <article>
                     <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 duration-500'>
                     <img src={ogm} alt='O’Game Master' width={500} height={500}/>
-                    <h4 className='text-xl font-bold pt-8 pb-2 text-teal-600'>O'Game Master</h4>
+                    <h4 className='text-xl font-bold pt-8 pb-2 text-teal-500'>O'Game Master</h4>
                     <p className='py-2'>
                         Plateforme participative de partage et d'hébergement
                         de scénario de jeux de rôles en ligne, développé en équipe.
@@ -39,7 +39,7 @@ const Projects = () => {
                     <article>
                         <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 duration-500'>
                         <img src={meute} alt='La Meute de Garmr' width={500} height={500}/>
-                        <h4 className='text-xl font-bold pt-8 pb-2 text-teal-600'>La Meute de Garmr</h4>
+                        <h4 className='text-xl font-bold pt-8 pb-2 text-teal-500'>La Meute de Garmr</h4>
                         <p className='py-2'>
                             Site vitrine de l'association La Meute de Garmr
                             qui font de l'évocation médiévale du IXème au XVème siècle.
@@ -55,7 +55,7 @@ const Projects = () => {
                     <article>
                     <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 duration-500'>
                         <img src={alain} alt='Alain CG Photography' width={500} height={500}/>
-                        <h4 className='text-xl font-bold pt-8 pb-2 text-teal-600'>Alain CG Photography</h4>
+                        <h4 className='text-xl font-bold pt-8 pb-2 text-teal-500'>Alain CG Photography</h4>
                         <p className='py-2'>
                         Site du photographe Alain CG pour consultez
                         ses albums photos, prendre contact et lire ses actualités.

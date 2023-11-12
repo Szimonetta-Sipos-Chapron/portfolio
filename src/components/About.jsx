@@ -7,7 +7,7 @@ const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
-                    <h3 className='text-4xl font-bold inline border-b-4 border-[#14ECEB]'>
+                    <h3 className='text-4xl font-bold inline border-b-4 border-teal-400'>
                         A Propos
                     </h3>
                 </div>
@@ -25,12 +25,13 @@ const About = () => {
                         En attendant, je vais continuer à travailler sur mes projets personnels et me former sur d'autres technologies. 
                         </p>
                     </div>
-                    <div className='w-80 h-80 mt-[-80px] ml-[80px] '>
-                        <img src={profile} alt='Profile' className='rounded-full'/>
-                    <div/>
+                    <div className='mt-[-100px] ml-[170px]'>
+                    <div className='border-5 p-1 rounded-md bg-gradient-to-r from-violet-900 via-teal-500 to-rose-500'>
+                        <img src={profile} alt='Profile' className='w-full h-full object-cover rounded-md'/>
+                    </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
   )
 }

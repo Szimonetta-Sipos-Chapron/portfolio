@@ -18,11 +18,11 @@ const Navbar = () => {
 
             {/* Menu */}
                 <ul className='hidden md:flex'>
-                    <li className='hover:border-b-4 border-[#14ECEB]'>Accueil</li>
-                    <li className='hover:border-b-4 border-[#14ECEB]'>A Propos</li>
-                    <li className='hover:border-b-4 border-[#14ECEB]'>Compétences</li>
-                    <li className='hover:border-b-4 border-[#14ECEB]'>Projets</li>
-                    <li className='hover:border-b-4 border-[#14ECEB]'>Contact</li>
+                    <li className='hover:border-b-4 border-teal-400'>Accueil</li>
+                    <li className='hover:border-b-4 border-teal-400'>A Propos</li>
+                    <li className='hover:border-b-4 border-teal-400'>Compétences</li>
+                    <li className='hover:border-b-4 border-teal-400'>Projets</li>
+                    <li className='hover:border-b-4 border-teal-400'>Contact</li>
                 </ul>
 
             {/* Hamburger */}
@@ -32,11 +32,11 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Accueil</li>
-                <li className='py-6 text-4xl'>A Propos</li>
-                <li className='py-6 text-4xl'>Compétences</li>
-                <li className='py-6 text-4xl'>Projets</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl hover:border-b-4 border-teal-400'>Accueil</li>
+                <li className='py-6 text-4xl hover:border-b-4 border-teal-400'>A Propos</li>
+                <li className='py-6 text-4xl hover:border-b-4 border-teal-400'>Compétences</li>
+                <li className='py-6 text-4xl hover:border-b-4 border-teal-400'>Projets</li>
+                <li className='py-6 text-4xl hover:border-b-4 border-teal-400'>Contact</li>
             </ul>
 
             {/* Social icons */}
@@ -52,12 +52,12 @@ const Navbar = () => {
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#F80751] '>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-rose-600 '>
                         <a href="/" className='flex justify-between items-center w-full text-gray-300'>
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#F6631D] '>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-orange-600 '>
                         <a href="/" className='flex justify-between items-center w-full text-gray-300'>
                             CV <BsFillPersonLinesFill size={30} />
                         </a>

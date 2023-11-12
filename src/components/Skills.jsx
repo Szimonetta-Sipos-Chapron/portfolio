@@ -5,11 +5,11 @@ import {TbBrandVscode} from 'react-icons/tb';
 
 const Skills = () => {
   return (
-    <section name='skills' className='bg-[#0a192f] text-gray-300'>
+    <section name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full pb-40'>
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full py-60'>
         <div className='pb-10'>
-            <h3 className='text-4xl font-bold inline border-b-4 border-[#14ECEB]'>Mes compétences</h3>
+            <h3 className='text-4xl font-bold inline border-b-4 border-teal-400'>Mes compétences</h3>
             <p className='py-4'>Voici les technologies et les outils que j'utilise.</p>
         </div>
       <div className='bg-gradient-to-r from-cyan-500 to-teal-500'>
@@ -52,7 +52,7 @@ const Skills = () => {
         </article>
         <article>
           <h4 className='text-2xl py-1 flex justify-center pt-5 text-gray-800'>Back-end</h4>
-            <ul className='text-5xl flex justify-center gap-5 py-5 text-gray-800'>
+            <ul className='text-5xl flex flex-wrap  justify-center gap-5 py-5 text-gray-800'>
               <li>
                 <FaNodeJs/>
                 <p className='text-sm pt-2'>NodeJS</p>
@@ -77,7 +77,7 @@ const Skills = () => {
         </article>
         <article>
           <h4 className='text-2xl py-1 flex justify-center pt-5 text-gray-800'>Outils</h4>
-            <ul className='text-5xl flex justify-center gap-5 py-5 text-gray-800'>
+            <ul className='text-5xl flex flex-wrap  justify-center gap-5 py-5 text-gray-800'>
               <li>
                 <TbBrandVscode/>
                 <p className='text-sm pt-2'>VSCode</p>
